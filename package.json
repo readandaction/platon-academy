@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "Make Education Web-site with NoodeJS",
   "scripts": {
-    "start": "node init.js"
+    "start": "nodemon --exec babel-node init.js -delay 2s"
   },
   "author": "Baek",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
