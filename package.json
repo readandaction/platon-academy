@@ -1,0 +1,13 @@
+{
+  "name": "platon-academy",
+  "version": "1.0.0",
+  "description": "Make Education Web-site with NoodeJS",
+  "scripts": {
+    "start": "node init.js"
+  },
+  "author": "Baek",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
